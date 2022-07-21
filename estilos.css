@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color: ghostwhite;
+	font-family: times new roman, sans-serif;
+	font-size: 16px;
+	background: #A940E6;
+}
+.contenedor{
+	width: 90%;
+	margin: 20px auto;
+	overflow: hidden;  /*para colocar elementos en linea*/
+}
+header{
+	background: black;
+}
+header nav{
+	width: 90%;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+}
+header nav  ul li a{
+	text text-decoration: none;
+	display: inline-block;
+	color: #07CFE0;
+}
+header nav ul li a: hover{
+	background: black;
+	color: #B3E028;
+}
+.main{
+	width: 70%;
+	background: black;
+	float: left;
+}
+.main .imagem img{
+	width: 100%;          /*anchura se maneja en porcentajes*/
+	vertical-align: top;
+}
+.main .ref{
+	padding: 40px;
+}
+.main .ref article h2{
+	margin-bottom: 20px;
+	color: #9f12e0;
+}
+.main .ref article p{
+	margin-bottom: 15 px;
+	line-height: 20px;
+	color :
+}
+aside{
+	width: 30%;
+	padding: 20px;
+	color: darkorange;
+	background: #000;
+	float: left;
+}
+aside .lateral{
+	margin-bottom: 20px;
+}
+aside .lateral .titulo{
+	color: white;
+	border-bottom: 1px solid;
+	margin-bottom: 10px;
+}
+aside .lateral ul{
+	list-style: none;
+}
+aside .lateral ul li{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+aside.lateral ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+aside .lateral ul li:hover{
+	color: #E07528;
+}
+/*aside .lateral ul li:hover{
+	color: #9F12E0;
+}*/
+footer{
+	width: 100%;
+	background: black;
+	color: #B3E028;
+	padding:  5px ;
+	text-align: center;
+}
+
